@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 import './index.css'
 
 const BlogItem = props => {
-  const {blogItemDetails} = props
-  const {id, imageUrl, topic, title, avatarUrl, author} = blogItemDetails
+  const {blogData} = props
+  const {id, imageUrl, topic, title, avatarUrl, author} = blogData
 
   return (
     <li className="blog-item">
